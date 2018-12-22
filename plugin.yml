@@ -1,0 +1,10 @@
+main: baron.rol.main.SimplyGUI
+name: SimpleGUI
+version: 1.0
+api-version: 1.13
+author: norab7
+description: Creates and Opens a simple GUI for the user
+commands:
+  /simplegui:
+    description: Test that the plugin is loaded correctly
+    usage: //simplegui
