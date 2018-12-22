@@ -1,1 +1,5 @@
 author: norab7
+defaults:
+  size: 9
+  name: Backpack
+  type: CHEST

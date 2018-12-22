@@ -1,10 +1,19 @@
-main: baron.rol.main.SimplyGUI
-name: SimpleGUI
+main: baron.rol.main.BackPack
+name: BackPack
 version: 1.0
 api-version: 1.13
 author: norab7
-description: Creates and Opens a simple GUI for the user
+description: Creates and Opens a BackPack for the user
 commands:
-  /simplegui:
+  /sg:
     description: Test that the plugin is loaded correctly
-    usage: //simplegui
+    usage: //sg
+  /sgnew:
+    description: Manually Create BackPack for calling player
+    usage: //sgnew
+  /sgopen:
+    description: Manually open the players custom BackPack
+    usage: //sgopen
+  /sgsize:
+    description: Change size of backpack
+    usage: //sgsize
